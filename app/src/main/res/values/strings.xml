@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TimeManager</string>
+    <string name="email">Email...</string>
+    <string name="password">Password...</string>
+    <string name="confirm">CONFIRM ACCOUNT</string>
+    <string name="login">LOGIN</string>
+    <string name="token">Company token...</string>
+    <string name="register">REGISTER</string>
+    <string name="fieldsRequired">All fields are required</string>
+    <string name="logout">LOGOUT</string>
+    <string name="proiect">Projects</string>
+    <string name="nume">Nume Proiect:</string>
+    <string name="data">Data:</string>
+    <string name="ore">Ore lucrate:</string>
+    <string name="descriere">Descriere...</string>
+    <string name="Edit">EDIT PROFILE</string>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.filote_cosmin.timemanager.Activities.Project"
+    android:background="@drawable/mobile_background"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/numeProiect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nume"
+        android:textColor="@color/black"
+        android:layout_marginLeft="21dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="21dp"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/dataProiect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/data"
+        android:textColor="@color/black"
+        android:padding="10dp"
+        android:layout_below="@+id/numeProiect"
+        android:layout_alignLeft="@+id/numeProiect"
+        android:layout_alignStart="@+id/numeProiect"
+        android:layout_alignRight="@+id/numeProiect"
+        android:layout_alignEnd="@+id/numeProiect" />
+    <TextView
+        android:id="@+id/ore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ore"
+        android:textColor="@color/black"
+        android:padding="10dp"
+        android:layout_below="@+id/dataProiect"
+        android:layout_alignLeft="@+id/dataProiect"
+        android:layout_alignStart="@+id/dataProiect"
+        android:layout_alignRight="@+id/dataProiect"
+        android:layout_alignEnd="@+id/dataProiect" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:layout_below="@+id/ore"
+        android:hint="@string/descriere"
+        android:textColorHint="@color/gray"
+        android:textColor="@color/black"/>
+
+</RelativeLayout>

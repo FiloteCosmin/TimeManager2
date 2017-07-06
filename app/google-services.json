@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "191418589118",
+    "firebase_url": "https://timemanager-16bc7.firebaseio.com",
+    "project_id": "timemanager-16bc7",
+    "storage_bucket": "timemanager-16bc7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:191418589118:android:192bd8c7c45736d0",
+        "android_client_info": {
+          "package_name": "com.example.filote_cosmin.timemanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "191418589118-0su3j96nnegoklfcmb3k7po8vahkbtt7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.filote_cosmin.timemanager",
+            "certificate_hash": "4ae525332555f16d3ffcdfcb9005c69169fc2bc0"
+          }
+        },
+        {
+          "client_id": "191418589118-7ujccbi38pr4g8hjqfc5v9e0dqnniq0k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0LGggU5hGOw5vlWtxJu0b8Jop6In0GG0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "191418589118-7ujccbi38pr4g8hjqfc5v9e0dqnniq0k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

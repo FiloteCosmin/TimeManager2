@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mobile_background"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:orientation="horizontal"
+    tools:context="com.example.filote_cosmin.timemanager.Activities.Login">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/im_timemanager_logo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/timemanager_logo"
+        android:layout_marginTop="56dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:layout_marginTop="50dp"
+        android:padding="10dp"
+        android:layout_below="@+id/im_timemanager_logo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColorHint="@color/gray"
+        android:background="@color/white"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/et_password"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_email"
+        android:layout_marginTop="10dp"
+        android:hint="@string/password"
+        android:textColorHint="@color/gray"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:inputType="textPassword"
+       />
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/et_password"
+        android:text="@string/login"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/secondaryColor"
+        />
+
+    <Button
+        android:id="@+id/btn_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_login"
+        android:text="@string/confirm"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/errorColor"/>
+    </RelativeLayout>
+
+
+
+
+
+</ScrollView>

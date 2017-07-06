@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mobile_background"
+    android:orientation="horizontal"
+    tools:context="com.example.filote_cosmin.timemanager.Activities.Register">
+
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_above="@+id/et_password"
+        android:padding="10dp"
+        android:hint="@string/email"
+        android:textColorHint="@color/gray"
+        android:textColor="@color/black"/>
+
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_centerVertical="true"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:hint="@string/password"
+        android:textColorHint="@color/gray"/>
+    <EditText
+        android:id="@+id/et_token"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_below="@+id/et_password"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="@string/token"
+        android:textColorHint="@color/gray"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_token"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/mainColor"
+        android:text="@string/register"
+        android:textSize="20sp"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/fields"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/errorColor"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentBottom="true"
+        android:text="@string/fieldsRequired"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:visibility="gone"/>
+
+
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+

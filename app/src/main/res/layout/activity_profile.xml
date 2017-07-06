@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mobile_background"
+    tools:context="com.example.filote_cosmin.timemanager.Activities.Profile">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:id="@+id/btn_project"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/proiect"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/btn_logout"
+            android:layout_toStartOf="@+id/btn_logout"
+            android:layout_marginRight="28dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginTop="105dp"
+            android:background="@color/errorColor"/>
+
+        <Button
+            android:id="@+id/btn_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/logout"
+            android:layout_marginBottom="168dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@color/successColor"/>
+        <Button
+            android:id="@+id/btn_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/btn_project"
+            android:layout_alignBottom="@+id/btn_project"
+            android:layout_toRightOf="@+id/btn_logout"
+            android:layout_toEndOf="@+id/btn_logout"
+            android:text="@string/Edit"
+            android:background="@color/errorColor"
+            android:padding="10dp"/>
+
+    </RelativeLayout>
+
+
+    <ListView
+        android:id="@+id/lv_project"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:visibility="gone"
+        android:backgroundTint="@color/errorColor"
+        ></ListView>
+
+    <ImageView
+        android:id="@+id/im_close_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/close_button"
+        android:layout_alignTop="@+id/lv_project"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:visibility="gone"/>
+
+
+
+
+
+
+</RelativeLayout>
