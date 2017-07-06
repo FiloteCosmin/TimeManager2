@@ -123,6 +123,11 @@ public class Profile extends AppCompatActivity implements View.OnClickListener {
         }
         if(v.equals(btnEditProfile)){
             Toast.makeText(Profile.this,"Ai apasat pe editProfile",Toast.LENGTH_LONG).show();
+            String id=mAuth.getCurrentUser().getUid().toString();
+            Intent myIntent = new Intent(Profile.this, EditProfile.class);
+            myIntent.putExtra("userID",id);
+            myIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            startActivity(myIntent);
         }
     }
 }

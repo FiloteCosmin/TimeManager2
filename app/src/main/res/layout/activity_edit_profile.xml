@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mobile_background"
+    android:padding="20dp"
+    tools:context="com.example.filote_cosmin.timemanager.Activities.EditProfile">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/numeUser"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:id="@+id/NumeUser" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:hint="@string/NumeUserHint"
+        android:textColorHint="@color/gray"
+        android:padding="10dp"
+        android:layout_alignBaseline="@+id/NumeUser"
+        android:layout_alignBottom="@+id/NumeUser"
+        android:layout_toRightOf="@+id/NumeUser"
+        android:layout_marginLeft="38dp"
+        android:layout_marginStart="38dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/et_nume"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/prenumeUser"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/NumeUser"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="26dp"
+        android:id="@+id/prenumeUser" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:hint="@string/PrenumeUserHint"
+        android:padding="10dp"
+        android:textColorHint="@color/gray"
+        android:layout_alignTop="@+id/prenumeUser"
+        android:layout_alignLeft="@+id/et_nume"
+        android:layout_alignStart="@+id/et_nume"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/black"
+        android:id="@+id/et_prenume"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Adresa"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/prenumeUser"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="26dp"
+        android:id="@+id/adressUser" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:hint="@string/AdresaHint"
+        android:background="@color/white"
+        android:textColorHint="@color/gray"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_alignBaseline="@+id/adressUser"
+        android:layout_alignBottom="@+id/adressUser"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/et_adresa"
+        android:layout_alignLeft="@+id/et_prenume"
+        android:layout_alignStart="@+id/et_prenume" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/telefon"
+        android:padding="5dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/adressUser"
+        android:layout_alignRight="@+id/adressUser"
+        android:layout_alignEnd="@+id/adressUser"
+        android:layout_marginTop="26dp"
+        android:id="@+id/textView" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:hint="@string/telefonHint"
+        android:textColorHint="@color/gray"
+        android:textColor="@color/black"
+        android:padding="10dp"
+        android:id="@+id/et_telefon"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/et_adresa"
+        android:layout_alignStart="@+id/et_adresa"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btn_salveaza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/successColor"
+        android:padding="10dp"
+        android:text="@string/Salveaza"
+        android:textSize="15sp"/>
+
+
+
+</RelativeLayout>

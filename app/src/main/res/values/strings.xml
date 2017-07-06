@@ -14,4 +14,13 @@
     <string name="ore">Ore lucrate:</string>
     <string name="descriere">Descriere...</string>
     <string name="Edit">EDIT PROFILE</string>
+    <string name="numeUser">Nume:</string>
+    <string name="NumeUserHint">Numele tau</string>
+    <string name="prenumeUser">Prenume:</string>
+    <string name="PrenumeUserHint">Prenumele tau</string>
+    <string name="Adresa">Adresa:</string>
+    <string name="AdresaHint">Adresa ta</string>
+    <string name="telefon">Telefon:</string>
+    <string name="telefonHint">Telefonul tau</string>
+    <string name="Salveaza">Salveaza</string>
 </resources>

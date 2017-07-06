@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".Activities.Register" />
         <activity android:name=".Activities.Profile" />
-        <activity android:name=".Activities.Project"></activity>
+        <activity android:name=".Activities.Project" />
+        <activity android:name=".Activities.EditProfile"></activity>
     </application>
 
 </manifest>
